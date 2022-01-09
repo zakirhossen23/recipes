@@ -1,0 +1,253 @@
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.rcps-header-social {
+	margin-left: 0;
+	margin-right: auto;
+	text-align: left;
+}
+
+.rcps-header-social .rcps-list-social a {
+	margin-right: 1rem;
+	margin-left: 0;
+}
+
+.rcps-header-branding {
+	margin-right: 0;
+	margin-left: 2rem;
+	text-align: right;
+}
+
+input[type="text"].rcps-filters-s {
+	padding-right: 0.75rem;
+	padding-left: 0;
+}
+
+.rcps-filters-searchsubmit {
+	padding-right: 0;
+	padding-left: 0.75rem;
+	float: left;
+	text-align: left;
+}
+
+.rcps-form .rcps-td-ingredient {
+	padding-right: 0;
+	padding-left: 3%;
+}
+
+.rcps-pages .nav-links .page-numbers:first-child {
+	border-radius: 0 2px 2px 0;
+}
+
+.rcps-pages .nav-links .page-numbers:last-child {
+	border-radius: 2px 0 0 2px;
+}
+
+button.rcps-btn-dropdown {
+	padding-right: 0.75rem;
+	padding-left: 1.75rem;
+	text-align: right;
+}
+
+button.rcps-btn-dropdown:after {
+	right: auto;
+	left: 0.75rem;
+}
+
+.rcps-input-radio, .rcps-input-checkbox {
+	left: auto;
+	right: -9999px;
+}
+
+.rcps-title-header .rcps-btn {
+	margin-left: 0;
+	margin-right: 0.5em;
+}
+
+.rcps-icon-meta {
+	margin-right: 0;
+	margin-left: 0.125em;
+}
+
+.rcps-meta li {
+	margin-right: 0;
+	margin-left: 0.5em;
+}
+
+.rcps-meta li:last-child {
+	margin-left: 0;
+}
+
+.rcps-details-categories {
+	margin: 0 0 0 1em;
+}
+
+.rcps-details-categories li {
+	margin-right: 0;
+	margin-left: 0.25em;
+}
+
+.rcps-commentlist li li {
+	padding-left: 0;
+	padding-right: 50px;
+}
+
+.rcps-comment {
+	padding-left: 0;
+	padding-right: 50px;
+}
+
+.rcps-comment-author-name {
+	margin-right: 0;
+	margin-left: 0.5em;
+}
+
+.rcps-comment-avatar {
+	left: auto;
+	right: 0;
+	top: 0;
+}
+
+.rcps-comment-by-author {
+	margin-right: 0;
+	margin-left: 0.5em;
+}
+
+.single-recipe .rcps-single-content ol > li {
+	padding-left: 0;
+	padding-right: 2em;
+}
+
+.single-recipe .rcps-single-content ol > li:before {
+	margin-right: 0;
+	margin-left: 0.5em;
+	left: auto;
+	right: 0;
+}
+
+.rcps-widget-image {
+	float: right;
+	margin: 0 0 1.2em 1em;
+}
+
+.rcps-meta.rcps-meta-widget li {
+	margin-right: 0;
+	margin-left: 0.375em;
+}
+
+.rcps-item-author:after {
+	right: auto;
+	left: -1rem;
+	background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 0, #fcfcfc 100%);
+}
+
+.rcps-nutrition-facts-header h3 {
+	text-align: right;
+}
+
+.rcps-nutrition-facts-row-daily-value-title {
+	text-align: left;
+}
+
+.rcps-nutrition-facts-item-right {
+	float: left;
+}
+
+blockquote p:before {
+	left: auto;
+	right: -0.5em;
+}
+
+.rcps-table-ingredients td:first-child {
+	padding-right: 0;
+	padding-left: 1em;
+}
+
+.rcps-table-ingredients td:last-child {
+	padding-right: 0.25em;
+	padding-left: 0;
+}
+
+.rcps-single-favorite .simplefavorite-button:after {
+	padding-left: 0;
+	padding-right: 0.25em;
+}
+
+.rcps-dropdown-input-wrap input[type="checkbox"], .rcps-dropdown-input-wrap input[type="radio"] {
+	margin: 0 0.5rem 0 0;
+}
+
+.rcps-img-inline-left {
+	margin-right: 0;
+	margin-left: 0.5rem;
+}
+
+.rcps-img-inline-right {
+	margin-left: 0;
+	margin-right: 0.5rem;
+}
+
+.rcps-widget-item {
+	padding-left: auto;
+	padding-right: 56px;
+}
+
+.rcps-widget-image {
+	left: auto;
+	right: 0;
+}
+
+@media screen and (min-width:500px) {
+
+	.rcps-sort-cell:first-child {
+		text-align: right;
+	}
+
+	.rcps-sort-cell:last-child {
+		text-align: left;
+	}
+
+	.rcps-sort-title {
+		margin: 0 0 0 0.5em;
+	}
+
+}
+
+@media screen and (min-width:660px) {
+
+	.rcps-label {
+		float: right;
+		padding: 0 1em 0 0;
+	}
+
+	.rcps-form-description {
+		margin-right: 25%;
+	}
+
+	.rcps-form-submit#submit,
+	.comment-form #submit {
+		margin-right: 25%;
+	}
+
+	.rcps-next-prev div img {
+		float: right;
+		margin-left: 0.5em;
+		margin-right: 0;
+	}
+
+}
+
+@media screen and (min-width:745px) {
+
+	.rcps-filters-cell {
+		padding-right: 0;
+		padding-left: 1em;
+	}
+
+	.rcps-filters-cell:last-child {
+		padding-left: 0;
+	}
+
+}

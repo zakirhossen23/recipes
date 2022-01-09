@@ -1,0 +1,1844 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Recipes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-27 07:41+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: myTheme\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;_n:1,2;_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Loco-Version: 2.3.3; wp-5.4\n"
+"X-Poedit-Flags-xgettext: --add-comments=Translators:\n"
+"X-Poedit-Basepath: ../../../..\n"
+"X-Poedit-SearchPath-0: wordpress-themes/themeforest/recipes\n"
+"X-Poedit-SearchPath-1: wordpress-plugins/themeforest/recipes-plugin\n"
+"X-Poedit-SearchPathExcluded-0: wordpress-plugins/themeforest/recipes-plugin/."
+"git\n"
+"X-Poedit-SearchPathExcluded-1: wordpress-themes/themeforest/recipes/.git\n"
+"X-Poedit-SearchPathExcluded-2: wordpress-themes/themeforest/recipes/"
+"node_modules\n"
+"X-Poedit-SearchPathExcluded-3: wordpress-themes/themeforest/recipes/lib\n"
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/admin-functions.php:47
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:206
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:247
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:146
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:73
+#: wordpress-themes/themeforest/recipes/inc/misc.php:91
+msgid "Rating"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/admin-functions.php:48
+msgid "Thumbnail"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/admin-functions.php:218
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:250
+#: wordpress-themes/themeforest/recipes/single-recipe.php:11
+msgid "Recipes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:64
+msgid ""
+"Write a short description and instructions here. Use the Numbered list "
+"button above to format the instructions as a list."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:65
+msgid "Directions"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:66
+msgid "Preheat oven to 350 degrees."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:66
+msgid "Sift together flour, and salt."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:66
+msgid "Bake until golden around edges."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:84
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:455
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:308
+msgid "Image"
+msgstr ""
+
+#. Translators: %1$s is the image width in pixels. %2$s is the image height in pixels.
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:89
+#, php-format
+msgid "Minimum size: %1$s by %2$s pixels."
+msgstr ""
+
+#. Translators: %s is file size in megabytes.
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:94
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:410
+#, php-format
+msgid "Max file size: %s megabytes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:101
+msgid "Current Image"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:104
+msgid "Current image is replaced if you upload a new image."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:112
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:361
+msgid "Description and Directions"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:165
+msgid "Ingredients Title"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:170
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:362
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:136
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:58
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:307
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:96
+msgid "Ingredients"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:175
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:162
+msgid "Ingredient"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:176
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:168
+msgid "Amount"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:195
+msgid "Add field"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:198
+msgid "Add ingredient list"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:320
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:360
+msgid "Recipe Title"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:325
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:203
+msgid "Tags"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:328
+msgid "Separate tags with commas. For example: healthy, paleo, gluten-free"
+msgstr ""
+
+#. Translators: %s is the field label.
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-fields.php:389
+#, php-format
+msgctxt "Form error message. %s is the field label"
+msgid "Please check field: %s"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-processing.php:80
+msgid "Your site just had a new recipe submitted! View the recipe:"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-processing.php:81
+msgid "New recipe"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-processing.php:127
+#: wordpress-plugins/themeforest/recipes-plugin/inc/front-end-functions.php:252
+#: wordpress-plugins/themeforest/recipes-plugin/inc/voting.php:16
+#: wordpress-plugins/themeforest/recipes-plugin/inc/voting.php:94
+msgid "Nonce did not validate."
+msgstr ""
+
+#. Translators: %1$s is the image width in pixels. %2$s is the image height in pixels.
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-processing.php:312
+#, php-format
+msgid "Image is too small (minimum size: %1$s by %2$s pixels)"
+msgstr ""
+
+#. Translators: %s is file size in megabytes.
+#. Translators: %s is a file size in megabytes.
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-processing.php:319
+#: wordpress-plugins/themeforest/recipes-plugin/inc/front-end-functions.php:192
+#, php-format
+msgid "Image file size is too big (max file size: %s megabytes)"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-processing.php:329
+msgid "Please upload a JPG file"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-processing.php:341
+msgid "Image upload error! Please try again."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/forms/form-processing.php:353
+msgid "Please add an image"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/front-end-functions.php:88
+msgid "View the recipe at"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/front-end-functions.php:169
+msgid "The email you entered is not valid. Please try again."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/front-end-functions.php:171
+msgid ""
+"The email you entered is already used by another user. Please try a "
+"different one."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/front-end-functions.php:187
+msgid "Image is too small (required size: 96px by 96px or larger)"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/front-end-functions.php:200
+msgid "Please upload a JPG or PNG file"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/front-end-recipe-actions.php:187
+msgid "Your own recipe"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/front-end-recipe-actions.php:192
+msgid "Recipe from another site"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:21
+msgid "Recipe Details"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:30
+msgid "Prep Time"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:31
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:46
+msgid "minutes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:45
+msgid "Cook Time"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:60
+msgid "Likes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:66
+msgid "Dislikes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:72
+msgid "External Recipe URL"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:73
+msgid "For example: http://www.recipe.com/delicious-cookies"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:80
+msgid "Recipe Link"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:85
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:100
+msgid "External Recipe Site Title"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:86
+msgid "For example: Allrecipes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:90
+msgid "Site Title"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:105
+msgid "Video"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:114
+msgid "Video URL"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:115
+msgid "For example: https://www.youtube.com/watch?v=2kl3Liy5jcQ"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:145
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:74
+#: wordpress-themes/themeforest/recipes/inc/misc.php:92
+msgid "Title"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:154
+msgid "Ingredient {#}"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:155
+msgid "Add Another Ingredient"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:156
+msgid "Remove Ingredient"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:183
+#: wordpress-themes/themeforest/recipes/templates/template-nutrition-facts.php:13
+msgid "Nutrition Facts"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:192
+#: wordpress-themes/themeforest/recipes/templates/template-amp-meta.php:15
+#: wordpress-themes/themeforest/recipes/templates/template-recipe-meta.php:16
+msgid "Servings"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:206
+msgid "Calories in each serving"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:220
+msgid "Total Carbohydrate"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:221
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:227
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:251
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:257
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:266
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:272
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:281
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:287
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:295
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:301
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:309
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:315
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:324
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:330
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:354
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:360
+msgid "g"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:235
+msgid "Cholesterol"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:236
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:242
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:339
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:345
+msgid "mg"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:250
+msgid "Total Fat"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:265
+msgid "Saturated Fat"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:280
+msgid "Unsaturated Fat"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:294
+msgid "Trans Fat"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:308
+msgid "Dietary Fiber"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:323
+msgid "Protein"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:338
+msgid "Sodium"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:353
+msgid "Sugars"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:378
+msgid "User Profile Metabox"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:389
+msgid "Social Links"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:396
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:420
+msgid "Facebook URL"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:402
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:419
+msgid "Twitter URL"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:408
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:421
+msgid "Instagram URL"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:414
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:422
+msgid "Pinterest URL"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:420
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:423
+msgid "YouTube URL"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:426
+#: wordpress-themes/themeforest/recipes/inc/images.php:191
+msgid "Avatar"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:427
+msgid "Required size: 96px by 96px or larger"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:433
+msgid "Featured User"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:448
+msgid "Term Meta"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:456
+msgid "Required size: 1140px by 500px or larger."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/meta-boxes.php:463
+msgid "Featured Term"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/permalinks.php:18
+msgid "Recipes Theme"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/permalinks.php:28
+msgid ""
+"Change the URL structure used in the theme. If you leave these blank the "
+"defaults will be used."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/permalinks.php:39
+msgid "Recipe base"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/permalinks.php:40
+msgid "Recipe archive base"
+msgstr ""
+
+#. Translators: %s is the singular name of the taxonomy.
+#: wordpress-plugins/themeforest/recipes-plugin/inc/permalinks.php:49
+#, php-format
+msgctxt "Taxonomy label in permalink settings"
+msgid "%s base"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:26
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:28
+msgid "Courses"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:27
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:36
+msgid "Course"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:29
+msgid "Edit Course"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:30
+msgid "Search Courses"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:31
+msgid "No courses found"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:32
+msgid "Add New Course"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:61
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:63
+msgid "Cuisines"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:62
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:71
+msgid "Cuisine"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:64
+msgid "Edit Cuisine"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:65
+msgid "Search Cuisines"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:66
+msgid "No cuisine found"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:67
+msgid "Add New Cuisine"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:96
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:98
+msgid "Special Diets"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:97
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:106
+msgid "Special Diet"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:99
+msgid "Edit Special Diet"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:100
+msgid "Search Special Diet"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:101
+msgid "No special diets found"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:102
+msgid "Add New Special Diet"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:131
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:133
+msgid "Skill Levels"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:132
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:141
+msgid "Skill Level"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:134
+msgid "Edit Skill Level"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:135
+msgid "Search Skill Levels"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:136
+msgid "No skill level found"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:137
+msgid "Add New Skill Level"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:166
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:168
+msgid "Collections"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:167
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:176
+msgid "Collection"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:169
+msgid "Edit Collection"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:170
+msgid "Search Collections"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:171
+msgid "No collection found"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:172
+msgid "Add New Collection"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:201
+msgid "Recipe Tags"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:202
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:211
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:213
+msgid "Recipe Tag"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:204
+msgid "Edit Recipe Tag"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:205
+msgid "Search Recipe Tags"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:206
+msgid "No recipe tags found"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:207
+msgid "Add New Recipe Tag"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:246
+msgctxt "Recipe archive page URL slug."
+msgid "recipes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:251
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:137
+msgid "Recipe"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:252
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:257
+msgid "Add New Recipe"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:253
+msgid "Edit Recipe"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:254
+msgid "Search Recipes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:255
+msgid "No recipes found"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:256
+msgid "New Recipe"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/post-types.php:258
+msgid "View Recipe"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:234
+msgid "You must be logged in to submit a recipe."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:238
+msgid "Thank you! Your recipe is awaiting moderation."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:267
+msgid "Submit Recipe"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:302
+msgid "You must be logged in to edit your recipes."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:305
+msgid "You are not the author of this recipe."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:321
+msgid "Choose a recipe to edit"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:342
+msgid "Recipe updated."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:353
+msgid "Update Recipe"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:389
+msgid "You must be logged in to edit your profile."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:399
+msgid "Thanks, your settings have been saved."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:404
+msgid "Upload profile picture"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:408
+msgid "Required size: 96px by 96px or larger."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:416
+msgid "Display Name"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:417
+#: wordpress-themes/themeforest/recipes/comments.php:35
+msgid "Email"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:418
+#: wordpress-themes/themeforest/recipes/comments.php:37
+msgid "Website"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:435
+msgid "Biographical Info"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:441
+msgid "Update Profile"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/shortcodes.php:443
+msgid "Change Password"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/voting.php:262
+msgid "Like"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/voting.php:263
+msgid "Dislike"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/voting.php:335
+#, php-format
+msgctxt "Title attribute of star rating"
+msgid "Rating: %s%%"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-hero-image.php:20
+msgid "Widget to display hero image."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-hero-image.php:23
+msgid "Recipes: Homepage > Hero Image"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-hero-image.php:134
+#: wordpress-themes/themeforest/recipes/inc/meta-boxes.php:43
+msgid "Popular searches"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-hero-image.php:148
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-blog-posts.php:159
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:187
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:212
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:234
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-users.php:172
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-recipe-search.php:114
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:130
+msgid "Title:"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-hero-image.php:153
+msgid "Image:"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-hero-image.php:167
+msgid "Select Image"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-hero-image.php:171
+msgid "Search title:"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-hero-image.php:176
+msgid ""
+"Search suggestions as a comma separated list. For example: pizza, tomato, "
+"easy"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-hero-image.php:181
+msgid "Title background color:"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-blog-posts.php:20
+msgid "Widget to display blog posts."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-blog-posts.php:23
+msgid "Recipes: Homepage > List Blog Posts"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-blog-posts.php:92
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:116
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-users.php:102
+#: wordpress-themes/themeforest/recipes/author.php:65
+msgid "View all"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-blog-posts.php:145
+#: wordpress-themes/themeforest/recipes/author.php:83
+#: wordpress-themes/themeforest/recipes/index.php:19
+msgid "Latest blog posts"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-blog-posts.php:164
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:239
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-users.php:177
+msgid "Content:"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-blog-posts.php:169
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:155
+msgid "Number of posts to show"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-blog-posts.php:175
+msgid "Show link to all blog posts"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-blog-posts.php:179
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:228
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:264
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:287
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-users.php:197
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-recipe-search.php:124
+msgid "Background color:"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:20
+msgid "Widget to display recipes."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:23
+msgid "Recipes: Homepage > List Recipes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:175
+#: wordpress-themes/themeforest/recipes/author.php:63
+msgid "Latest recipes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:192
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:217
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-recipe-search.php:119
+msgid "Content"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:197
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:239
+msgid "Max. number of recipes to show"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:202
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:244
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:266
+msgid "Order by"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:204
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:246
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:145
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:72
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:98
+#: wordpress-themes/themeforest/recipes/inc/misc.php:90
+msgid "Date"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:205
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:268
+#: wordpress-themes/themeforest/recipes/comments.php:33
+msgid "Name"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:207
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:248
+msgid "Favorite count"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:209
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:250
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:149
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:76
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:97
+#: wordpress-themes/themeforest/recipes/inc/misc.php:94
+msgid "Views"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:215
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:256
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:274
+msgid "Order"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:217
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:258
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:276
+msgid "Ascending"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:218
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:259
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:277
+msgid "Descending"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-recipes.php:224
+msgid "Show link to all recipes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:20
+msgid "Widget to display related recipes."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:23
+msgid "Recipes: List Related Recipes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:200
+msgid "Recommended For You"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-related-recipes.php:222
+msgid "Taxonomies used to find related recipes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:20
+msgid "Widget to display terms."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:23
+msgid "Recipes: Homepage > List Terms"
+msgstr ""
+
+#. Translators: %d is the number of recipes.
+#. Translators: %d is the number of recipes found.
+#. Translators: %d is the number of recipes by the user.
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:164
+#: wordpress-themes/themeforest/recipes/inc/ajax.php:153
+#: wordpress-themes/themeforest/recipes/templates/template-sort.php:15
+#: wordpress-themes/themeforest/recipes/templates/template-user.php:14
+#, php-format
+msgid "%d recipe"
+msgid_plural "%d recipes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:217
+msgid "Featured terms"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:244
+msgid "Taxonomies"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:261
+msgid "Max. number of terms to show"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:269
+msgid "Count"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-terms.php:283
+msgid "Show only featured terms"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-users.php:20
+msgid "Widget to display users."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-users.php:23
+msgid "Recipes: Homepage > List Users"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-users.php:157
+msgid "Featured members"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-users.php:183
+msgid "Show only featured users"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-users.php:188
+msgid "Show a link to the member directory"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-list-users.php:192
+msgid "Number of users to show:"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-recipe-search.php:20
+msgid "Widget to display recipe search."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-recipe-search.php:23
+msgid "Recipes: Homepage > Recipe Search"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-rcps-widget-recipe-search.php:106
+msgid "Search recipes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:20
+msgid "Widget to display recent or top rated recipes."
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:23
+msgid "Recipes: Posts or recipes with thumbnails"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:121
+#: wordpress-themes/themeforest/recipes/404.php:35
+msgid "Recent Recipes"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:135
+msgid "Post type"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:138
+msgid "Post"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:143
+#: wordpress-themes/themeforest/recipes/templates/template-sort.php:25
+msgid "Sort by"
+msgstr ""
+
+#: wordpress-plugins/themeforest/recipes-plugin/inc/widgets/class-widget-custom-recipes.php:147
+#: wordpress-themes/themeforest/recipes/inc/misc.php:95
+msgid "Most favorited"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/404.php:11
+msgid "Not Found"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/404.php:17
+msgid "Apologies, but the page you requested could not be found."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/archive.php:11
+msgid "Blog Archive"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/author.php:49
+msgid "You have no recipes published. Want to submit your first one?"
+msgstr ""
+
+#. Translators: %s is the name of the author.
+#: wordpress-themes/themeforest/recipes/author.php:52
+#, php-format
+msgid "%s has no recipes published."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/author.php:101
+msgid "Favorite recipes"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/comments.php:19
+msgid "No Comments"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/comments.php:19
+#: wordpress-themes/themeforest/recipes/comments.php:61
+msgid "One Comment"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/comments.php:19
+#: wordpress-themes/themeforest/recipes/comments.php:61
+msgid "% Comments"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/comments.php:26
+msgid "Older Comments"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/comments.php:26
+msgid "Newer Comments"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/comments.php:43
+msgid "Your comment"
+msgstr ""
+
+#. Translators: %s is the login URL.
+#: wordpress-themes/themeforest/recipes/comments.php:46
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/comments.php:48
+#: wordpress-themes/themeforest/recipes/comments.php:49
+msgid "Leave a Reply"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/comments.php:50
+msgid "Cancel Reply"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/comments.php:51
+#: wordpress-themes/themeforest/recipes/templates/template-filters.php:71
+msgid "Submit"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/comments.php:61
+msgid "No comments. Leave a comment?"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/footer.php:36
+msgid "Powered by WordPress"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/header.php:47
+msgctxt "Mobile menu button text (for screen readers)"
+msgid "Menu"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/ajax.php:22
+#: wordpress-themes/themeforest/recipes/inc/ajax.php:38
+#: wordpress-themes/themeforest/recipes/inc/modify-queries.php:54
+msgid "Error."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:18
+msgid "Recipes Options"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:24
+msgid "Ratings"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:25
+msgid "Enable the ratings system for recipes."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:32
+msgid "Account links in the main navigation"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:33
+msgid "Display Log In, Register, and Account links in the main navigation."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:40
+msgid "Member directory"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:41
+msgid "Display administrators in the member directory."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:48
+msgid "Nutrition facts daily values"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:49
+msgid "Display percent daily value in the nutrition facts."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:56
+msgid "Filtering recipes"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:57
+msgid "Choose which fields are displayed on the recipe filters."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:66
+msgid "Sorting recipes"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:67
+msgid "Choose which values the recipes can be sorted on."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:75
+msgid "Time"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:77
+#: wordpress-themes/themeforest/recipes/inc/navigation.php:56
+msgid "Favorites"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:83
+msgid "Taxonomies on the recipe"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:84
+msgid "Choose which taxonomies are displayed on a single recipe."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:93
+msgid "Sharing and printing"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:94
+msgid ""
+"Choose which social sharing buttons are displayed at the bottom of the "
+"recipes."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:99
+msgid "Facebook"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:100
+msgid "Twitter"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:101
+msgid "Pinterest"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:102
+#: wordpress-themes/themeforest/recipes/templates/template-share.php:21
+#: wordpress-themes/themeforest/recipes/templates/template-share.php:30
+msgid "Print"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:108
+msgid "Linking external recipes"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:109
+msgid "Link external recipes directly to the recipe source."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:115
+msgid "Analytics"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:116
+msgid ""
+"Optional tracking code for the analytics services, for example Google "
+"Analytics."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:122
+msgid "Front-end recipe submission"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:128
+msgid "Allow submissions for registered users only"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:129
+msgid "Only registered users can submit recipes."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:135
+msgid "Allowed submission types"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:139
+msgid "Only users own recipes"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:140
+msgid "Only recipes on another sites"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:141
+msgid "Users own recipes, and recipes on another sites"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:147
+msgid "Displayed fields"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:148
+msgid "Choose which fields are displayed on the front-end submit form."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:156
+msgid "Required fields"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:157
+msgid ""
+"Choose which fields are required. Note: you can't require a field which is "
+"not displayed. See above."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:165
+msgid "Maximum file size for uploaded images"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:166
+msgid "Megabytes."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:179
+msgid "Minimum width for uploaded images"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:180
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:192
+msgid "Pixels."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:191
+msgid "Minimum height for uploaded images"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:203
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:209
+msgid "Placeholder Image"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:210
+msgid ""
+"Custom placeholder image for recipes without a featured image. Required "
+"size: 1140px by 500px or larger."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:227
+msgid "Advertisement"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:233
+msgid "Ad on the top of the recipe grid"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:239
+msgid "Ad on the bottom of the recipe grid"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:245
+msgid "Ad on single blog posts, and recipes"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:294
+#: wordpress-themes/themeforest/recipes/inc/misc.php:603
+#: wordpress-themes/themeforest/recipes/templates/template-filters.php:18
+#: wordpress-themes/themeforest/recipes/templates/template-filters.php:21
+msgid "Keyword"
+msgstr ""
+
+#. Translators: %s is the meta field name.
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:328
+#, php-format
+msgid "Meta: %s"
+msgstr ""
+
+#. Translators: %s is the taxonomy singular name.
+#: wordpress-themes/themeforest/recipes/inc/cmb2-theme-options.php:338
+#, php-format
+msgid "Taxonomy: %s"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/comment-list.php:24
+msgid "Pingback:"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/comment-list.php:24
+msgid "(Edit)"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/comment-list.php:45
+#: wordpress-themes/themeforest/recipes/inc/misc.php:614
+msgid "Author"
+msgstr ""
+
+#. Translators: %s is the comment time in a human readable format.
+#: wordpress-themes/themeforest/recipes/inc/comment-list.php:49
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/comment-list.php:53
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/comment-list.php:65
+msgid "Reply"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:28
+msgid "Number of recipes"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:29
+msgid "Set the number of recipes per page."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:48
+msgid "Taxonomy on the recipe"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:49
+msgid "Select which taxonomies are displayed before the recipe card title."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:68
+msgid "Show author in"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:70
+msgid "Recipe Card"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:71
+msgid "Blog Post Card"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:72
+msgid "Single Blog Post"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:73
+msgid "Single Recipe"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:92
+msgid "Meta fields on the recipe card."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:93
+msgid "Select which meta fields are displayed on the recipe card."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:95
+#: wordpress-themes/themeforest/recipes/inc/misc.php:93
+msgid "Total time"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:99
+msgid "Comments"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:101
+msgid "External Recipe Permalink"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:117
+msgid "Show the featured image after blog post title."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:130
+msgid "Show the featured image after recipe title."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:141
+msgid "Theme"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:142
+msgid ""
+"Are you using a light or dark background? This setting affects text colors "
+"used on the header and footer."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:147
+msgid "Dark"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:148
+msgid "Light"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:160
+msgid "Body Font"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:175
+msgid "Header Font"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:186
+msgid "Link Color"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:192
+msgid "Favorite Icon Color"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:198
+msgid "Title Background Color"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:204
+msgid "Rating Star Color"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/customizer.php:210
+msgid "Term Background Color"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/inline-style.php:130
+msgid "Add to favorites"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/inline-style.php:131
+msgid "In your favorites"
+msgstr ""
+
+#. Translators: %s is recipe title.
+#: wordpress-themes/themeforest/recipes/inc/login.php:67
+#, php-format
+msgid "Please log in to add %s to your favorites"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/meta-boxes.php:18
+msgid "Homepage Settings"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/meta-boxes.php:30
+msgid "Search suggestions"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/meta-boxes.php:31
+#: wordpress-themes/themeforest/recipes/inc/meta-boxes.php:41
+msgid "Deprecated. Use widgets at Appearance > Widgets to build the homepage."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/meta-boxes.php:40
+msgid "Title shown before the search suggestions"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/meta-boxes.php:51
+msgid "Display footer widgets on homepage"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/meta-boxes.php:65
+msgid "Post Settings"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/meta-boxes.php:74
+msgid "Show the featured image after title"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/meta-boxes.php:75
+msgid "If not set, the option from the Customizer is used."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/meta-boxes.php:79
+msgid "Yes"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/meta-boxes.php:80
+msgid "No"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/misc.php:122
+msgid "Choose"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/misc.php:221
+msgid "days"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/misc.php:225
+msgid "hr"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/misc.php:229
+msgid "min"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/misc.php:574
+#: wordpress-themes/themeforest/recipes/search.php:26
+msgid "Sorry, but nothing matched your search criteria."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/misc.php:581
+msgid "You must be logged in to view your favorite recipes."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/misc.php:583
+msgid "You have no favorite recipes."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/modify-queries.php:113
+msgid "Show only favorites"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/navigation.php:21
+msgid "Choose page"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/navigation.php:59
+msgid "Profile"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/navigation.php:63
+msgid "Settings"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/navigation.php:67
+msgid "Dashboard"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/navigation.php:70
+msgid "Log out"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/navigation.php:72
+msgid "Account"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/navigation.php:81
+msgid "Log In"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/navigation.php:84
+msgid "Register"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/navigation.php:109
+msgid "Previous"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/navigation.php:113
+msgid "Next"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:61
+msgid "Main Navigation"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:62
+msgid "Footer Navigation"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:63
+msgid "Header Social Links"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:64
+msgid "Footer Social Links"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:110
+#: wordpress-themes/themeforest/recipes/templates/template-recipe-grid.php:26
+msgid "Load more"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:111
+msgid "Loading..."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:137
+msgid "Homepage Widgets"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:148
+msgid "Footer Left"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:159
+msgid "Footer Center"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:170
+msgid "Footer Right"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:181
+msgid "Recipe Grid: Top"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:192
+msgid "Recipe Grid: Bottom"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:203
+msgid "Single Post: Bottom"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:214
+msgid "Single Recipe: Bottom"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:225
+msgid "Single Recipe: After Comments"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:236
+msgid "Single Post: After Comments"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/inc/theme-setup.php:247
+msgid "Header: Top"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/index.php:11
+#: wordpress-themes/themeforest/recipes/single.php:11
+msgid "Blog"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/page.php:25
+#: wordpress-themes/themeforest/recipes/single-recipe.php:46
+#: wordpress-themes/themeforest/recipes/single.php:42
+msgid "Pages:"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/search.php:11
+msgid "Searching for"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/searchform.php:11
+#: wordpress-themes/themeforest/recipes/searchform.php:12
+#: wordpress-themes/themeforest/recipes/searchform.php:14
+#: wordpress-themes/themeforest/recipes/templates/template-filters.php:22
+msgid "Search"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/single-recipe.php:62
+msgid "Rate"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/single-recipe.php:72
+msgid "Favorite"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/single.php:50
+#: wordpress-themes/themeforest/recipes/templates/template-amp-meta.php:35
+#: wordpress-themes/themeforest/recipes/templates/template-blog-categories.php:32
+#: wordpress-themes/themeforest/recipes/templates/template-recipe-terms.php:13
+msgid "Categories"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-amp-meta.php:20
+#: wordpress-themes/themeforest/recipes/templates/template-recipe-meta.php:24
+msgid "Calories in serving"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-amp-meta.php:25
+#: wordpress-themes/themeforest/recipes/templates/template-recipe-meta.php:33
+msgid "Prep"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-amp-meta.php:30
+#: wordpress-themes/themeforest/recipes/templates/template-recipe-meta.php:41
+msgid "Cook"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-applied-filters.php:14
+msgid "Applied filters"
+msgstr ""
+
+#. Translators: %1$s: taxonomy name, %2$s: filter value.
+#: wordpress-themes/themeforest/recipes/templates/template-applied-filters.php:20
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-applied-filters.php:28
+msgid "Clear all"
+msgstr ""
+
+#. Translators: %s is the number of servings.
+#: wordpress-themes/themeforest/recipes/templates/template-nutrition-facts.php:17
+#, php-format
+msgid "Serving Size: %s"
+msgstr ""
+
+#. Translators: %s is the number of calories per serving.
+#: wordpress-themes/themeforest/recipes/templates/template-nutrition-facts.php:22
+#, php-format
+msgid "Calories Per Serving: %s"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-nutrition-facts.php:29
+msgid "% Daily Value"
+msgstr ""
+
+#. Translators: %1$s is nutrient name. %2$s is the amount of nutrient.
+#: wordpress-themes/themeforest/recipes/templates/template-nutrition-facts.php:39
+#, php-format
+msgctxt "Nutrient amount and unit in the nutrient facts."
+msgid "%1$s%2$s"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-recipe-card-meta.php:19
+#: wordpress-themes/themeforest/recipes/templates/template-recipe-small.php:58
+msgid "Permalink"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-recipe-card-meta.php:41
+msgid "ingredient"
+msgid_plural "ingredients"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Translators: %d is the number of views.
+#: wordpress-themes/themeforest/recipes/templates/template-recipe-card-meta.php:51
+#, php-format
+msgid "%d views"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-recipe-small.php:34
+msgid "No Votes"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-share.php:15
+msgid "Share"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-user-actions.php:15
+msgid "Are you sure you want to delete this recipe?"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-user-actions.php:17
+#: wordpress-themes/themeforest/recipes/templates/template-user-actions.php:29
+msgid "Delete"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-user-actions.php:18
+msgid "Cancel"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-user-actions.php:24
+msgid "This is one of your recipes."
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-user-actions.php:27
+msgid "Edit"
+msgstr ""
+
+#: wordpress-themes/themeforest/recipes/templates/template-user.php:16
+msgid "No recipes"
+msgstr ""
+
+#. Translators: %d is the number of posts by the user.
+#: wordpress-themes/themeforest/recipes/templates/template-user.php:21
+#, php-format
+msgid "%d blog post"
+msgid_plural "%d blog posts"
+msgstr[0] ""
+msgstr[1] ""

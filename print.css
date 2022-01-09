@@ -1,0 +1,25 @@
+.rcps-wrap {background-color: none !important;border-radius:0;width:100%;}
+header, aside, footer, .rcps-section-comments, .rcps-single-recipe-widgets-after-comments, img, .wp-caption, .mfp-hide, .rcps-next-prev, .rcps-hide-on-print, .rcps-hidden, .demo-settings, .rcps-widget-center, .rcps-hero-img, .rcps-hero-bottom, .rcps-user-actions, .rcps-video-embed, .rcps-title-header, .rcps-aside, .rcps-footer, .wp-block-cover, .wp-block-image, .wp-block-gallery {display:none !important;visibility: hidden;}
+*, a, .rcps-ingress {color:#000;background-color: transparent !important;background-image:none !important;}
+
+.rcps-hero {text-align:center;width:60%;margin:0 auto;position: static;}
+.rcps-hero-image {height: auto; }
+.rcps-hero-content {position: static;width: auto; height: auto; }
+.rcps-hero-content-inner {margin: 0 auto;position: static;text-align: center;transform: none;}
+h1.rcps-title-hero {margin:1rem auto 0.5rem auto;font-size:2rem;line-height:1.25;}
+h1.rcps-title-hero span.rcps-hero-overlay {color:#000;}
+
+.rcps-details-cell {padding:0;display:inline-block;color:#000;margin:0 0.5rem;font-weight:bold;}
+.rcps-details-title {display:inline-block;font-weight:normal;font-style:italic;margin:0;color:#333;}
+
+.rcps-nutrition-facts {border: none;}
+.rcps-nutrition-facts-header, .rcps-nutrition-facts-row-daily-value-title {background:transparent;}
+.rcps-nutrition-facts-header h3 {color:#000;}
+.rcps-nutrition-facts-header p {color:#000;}
+
+.rcps-single-content {width:70%;margin:0 auto;}
+ul {list-style:none;}
+a {text-decoration:none;}
+h2, h3 {font-size:1.25rem;font-weight:bold;}
+
+.rcps-ingredient-checkable td:first-child::before {content:"";color:transparent;background:transparent;}

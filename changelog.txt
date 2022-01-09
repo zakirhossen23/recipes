@@ -1,0 +1,515 @@
+5.3.0 (November 24th, 2021)
+
+- Recipes Plugin was updated to 3.16.0. Please update the plugin.
+- Fixes for the recipe structured data.
+
+5.2.0 (May 20th, 2021)
+
+- Recipes Plugin was updated to 3.15.0. Please update the plugin.
+- JavaScript plugin for lazy loading is now loaded only if the browser does not support lazy loading.
+- Fixed a small JavaScript bug in voting buttons.
+- Fixed CSS and JavaScript issues on Internet Explorer 11.
+
+5.1.0 (April 29th, 2021)
+
+- Recipes Plugin was updated to 3.14.0. Please update the plugin.
+- Voting buttons are now fully compatible with caching plugins.
+- Replaced jQuery script used by the WP PostViews plugin with custom JavaScript to avoid loading jQuery.
+- Rating background color fade on recipe card now adjusts automatically to the color of the star icon for better contrast.
+- Minor code fixes.
+
+5.0.0 (April 20th, 2021)
+
+- Recipes Plugin was updated to 3.13.0. Please update the plugin.
+- Dropped support for Internet Explorer 8 and 9.
+- Replaced jQuery plugins with vanilla JavaScript for better performance and accessibility.
+- Added image dimensions for the logo image.
+- Added filters to set dimensions for the logo image if it's SVG.
+- Redesigned main navigation.
+- CSS optimizations.
+
+4.14.0 (April 5th, 2021)
+
+- Recipes Plugin was updated to 3.12.0. Please update the plugin.
+- Fixed a bug in recipe list structured data.
+- Fixed a bug in 'List Related Recipes' widget which prevented showing more than 10 recipes.
+- Added option to set background color for the title in 'Hero Image' widget.
+- Added prep time and cook time columns to the dashboard's recipe listing.
+- Improvements for Core Web Vitals.
+- Accessibility improvements.
+- Minor styling changes.
+- CSS optimizations.
+
+4.13.0 (July 27th, 2020)
+
+- Recipes Plugin was updated to 3.11.0. Please update the plugin.
+- Better support for images in the recipe structured data. (Use Force Regenerate Thumbnails plugin to rebuild your images!)
+- Added YouTube URL to the user profile settings.
+- Fixed a bug in 'Homepage: List Recipes' widget which prevented showing more than 10 recipes.
+
+4.12.0 (May 13th, 2020)
+
+- Recipes Plugin was updated to 3.10.0. Please update the plugin.
+- Added ItemList structured data when using the recipe list shortcode.
+- Added filter to allow editing the footer copyright text.
+- Fixed print styling.
+
+4.11.0 (May 6th, 2020)
+
+- Default translation file renamed to recipes.pot for better compatibility with translation plugins etc.
+- Fixed a bug when selecting multiple recipe filters caused an error with Yoast SEO plugin.
+- Minor styling changes.
+
+4.10.0 (April 23rd, 2020)
+
+- Recipes Plugin was updated to 3.9.0. Please update the plugin.
+- Added option to set minimum image size for recipes submitted via the front-end form.
+- Added number of recipes published by users in the dashboard's Users page.
+- Fixed a few accessibility issues.
+
+4.9.0 (April 17th, 2020)
+
+- Recipes Plugin was updated to 3.8.0. Please update the plugin.
+- Documentation moved to https://mytheme.io/docs/recipes/
+- Redesigned single recipe template.
+- Redesigned single blog post template.
+- Added new widget area on the top of the page before the logo and navigation.
+- Added new widget area in the single post which is compatible with the homepage widgets.
+- Added Customizer setting to show/hide featured image from the recipe.
+- Added custom field to show/hide the featured image recipe by recipe.
+- Added checkbox styling for ingredient list items. You should remove any custom styling.
+- Added video URL field to the front-end submit form.
+- Added option to choose if ingredient lists are displayed and required on the front-end recipe submit form. Please check your settings at Recipes Options > Front-end recipe submission.
+- Added wp_body_open action after the opening body tag.
+- Moved option to choose where author info is displayed to the Customizer. Please check your settings at Appearance > Customize > Recipes Theme.
+- Removed the option to use ribbon styling for the recipe rating.
+- Fixed a bug which allowed a user to set themself as a featured user via dashboard.
+- Fixed a small bug in the loading of more recipes via AJAX.
+- Fixed a small bug in the user settings shortcode.
+- Fixed a bug in social links not opening in a new tab even if the 'Open link in a new tab' setting was checked.
+- Updated import files for the demo content.
+
+4.8.0 (February 5th, 2020)
+
+- Recipes Plugin was updated to 3.7.0. Please update the plugin.
+- Redesigned user page. The page now shows user's recipes, blog posts, and favorite recipes.
+- Applied filters are now shown below the filter dropdowns.
+- Added Customizer setting to choose which meta fields are shown on the recipe cards.
+- Rebuilt front-end submit form. Please check your options for the displayed and required form fields at the Recipes Options.
+- Fixed a bug when the taxonomies were not visible when using the Gutenberg editor.
+- CSS optimizations.
+- Minor styling changes.
+
+4.7.0 (January 15th, 2020)
+
+- Recipes Plugin was updated to 3.6.0. Please update the plugin.
+- Recipe editor now supports Gutenberg editor.
+- Recipe submit form now accepts multiple terms from the same taxonomy.
+- Added Customizer setting to show/hide featured image from the post.
+- Added custom field to show/hide the featured image post by post.
+- List Terms widget now shows terms regardless of the term image set or not.
+- User card now shows also the count of blog posts.
+- Fixed selecting multiple terms on filters for RTL languages.
+- Styling fixes for RTL languages.
+- CSS optimizations.
+- Minor styling changes.
+
+4.6.0 (January 6th, 2020)
+
+- Recipes Plugin was updated to 3.5.0. Please update the plugin.
+- Now it's possible to search recipes by multiple terms from the same taxonomy.
+- Added button to load more recipes without a page reload.
+- Added option to display terms from multiple taxonomies on recipe card.
+- Removed Relevanssi support. Please disable Relevanssi plugin.
+- Removed page templates for recipe submit, recipe edit, member directory, and user settings. Use shortcodes [rcps_submit_recipe], [rcps_edit_recipe], [rcps_member_directory], and [rcps_user_settings] to insert the functionality to a page.
+- Fixed a bug when comments were not hiding correctly if comments pagination setting was not enabled.
+- Fixed a bug in the ordering settings of the List Terms widget.
+- Fixed the caching of List Related Recipes widget when changing the widget settings.
+- Fixed print styling.
+- CSS optimizations.
+- Minor code fixes.
+- Minor styling changes.
+
+4.5.0 (December 19th, 2019)
+
+- Recipes Plugin was updated to 3.4.0. Please update the plugin.
+- Added new widget to display a list of authors.
+- Added new widget to display related recipes on single recipe page.
+- Added custom field to set user as featured. Can be used to show only featured authors in the list users widget.
+- Added new widget area in the single recipe which is compatible with the homepage widgets.
+- Added author info in the recipe listing cards and blog post cards. Can be toggle on/off with a setting in the Customizer.
+- Removed the hard-coded list of related recipes on single recipe. Use the new widget area to insert List Related Recipes widget.
+- Comments are now visually hidden by default and can be revealed with a button.
+- Updated bundled Envato Market plugin to version 2.0.3.
+- Minor code fixes.
+- Minor styling changes.
+
+4.4.1 (December 13th, 2019)
+
+- Recipes Plugin was updated to 3.3.1. Please update the plugin.
+- Fixed a bug in class-rcps-widget-list-terms.php which caused an error on some PHP versions.
+
+4.4.0 (December 13th, 2019)
+
+- Recipes Plugin was updated to 3.3.0. Please update the plugin.
+- Added support for nutrition facts.
+- Added option to show percent daily value in the nutrition facts.
+- Removed Google+ from the supported social services as it has been closed down.
+- Speed optimizations. Optimized code, better caching of repetitive queries etc.
+- Minor code fixes.
+
+4.3.0 (December 6th, 2019)
+
+- Recipes Plugin was updated to 3.2.0. Please update the plugin.
+- Added taxonomy for special diets.
+- Added full support for user added taxonomies. Registering a new taxonomy now adds it to the front-end automatically.
+- Added option to choose which taxonomies are used to list recipe's categories on a single recipe page.
+- New styling for the blog archive pages. Blog posts are now displayed as cards instead of full view.
+- Recipe filtering form now redirects to a single taxonomy page if only one taxonomy is active.
+- AMP recipe taxonomies and fields are now added via filter instead of using a custom template.
+- Current menu item is now styled.
+- Minor code fixes.
+
+4.2.0 (May 1st, 2019)
+
+- Recipes Plugin was updated to 3.1.0. Please update the plugin.
+- Added support for wide width and full width blocks for Gutenberg editor.
+- Moved forms from the theme to the plugin. Now you can use shortcodes to insert forms. Use shortcode [rcps_submit_recipe] for the submit recipe form, [rcps_edit_recipe] for the edit recipe form, and [rcps_user_settings] for the user settings form.
+- Moved member directory to the plugin to be inserted with a shortcode. Use shortcode [rcps_member_directory] to insert the member directory.
+- Moved widgets to the plugin.
+- Moved various plugin territory functions from the theme to the plugin.
+- Added new font options.
+- To improve security password is now changed with the built-in WordPress functionality instead of the custom user settings form.
+- Recipes in widgets can now be sorted by views. Requires the WP-PostViews Plugin.
+- Fixed social links icon colors in the footer when using light background.
+- Minor code fixes.
+- Minor styling changes.
+
+4.1.1 (November 14th, 2018)
+
+- Recipes Plugin was updated to 3.0.1. Please update the plugin.
+- Fixed a bug which prevented the voting buttons to work correctly.
+
+4.1.0 (November 10th, 2018)
+
+- Added recipe meta and categories to the AMP template when using the official AMP plugin.
+- Fixed a bug in widgets which prevented setting empty text field options.
+- Updated import files for the demo content.
+- Speed optimizations.
+
+4.0.0 (November 6th, 2018)
+
+This update is a big one. See documentation chapter '11. Updating to version 4' for details.
+
+- Recipes Plugin was updated to 3.0.0. Please update the plugin.
+- This update includes many changes to how the theme is customized. For example colors, background, logo and custom CSS are now set at Appearance > Customize.
+- Homepage is now fully widgetized and you must set up your homepage again! See documentation chapter '2.2 Using widgets to build the homepage' for details. Please read the documentation carefully and update your homepage!
+- Added homepage widget for the hero image.
+- Added homepage widget for listing recipes.
+- Added homepage widget for listing blog posts.
+- Added homepage widget for listing terms.
+- Added homepage widget for recipe filters.
+- Added video field for recipes and blog posts. See documentation chapter '4.6. Video' for details.
+- Added image field for terms. Image is used as a hero image when viewing the taxonomy template. If the term image is not set, taxonomy template uses featured image from one of the recipes.
+- Added term descriptions on taxonomy template.
+- Added previous/next navigation also on blog posts.
+- Added a menu location in the footer to display social links.
+- Added Envato Market Plugin as a required plugin. Installing the plugin makes updating the theme much easier.
+- Removed theme options for ads. There are now widget areas in the same places where it was possible to insert ads. See Appearance > Widgets.
+- Fixed a bug in recipe filters. When only one filter was enabled in the Theme Options and the filter was activated, the template used to display results was not the right one.
+- Fixed the recipe post type archive link to work correctly when added to a menu at Appearance > Menus. You can change the URL slug used for the page at Settings > Permalinks. See documentation chapter '2.5.2 Adding link to all recipes' for details.
+- Recipe search is now using the post type archive link instead of using the base URL of the site.
+- Made the previous/next recipe links RTL compatible.
+- Updated documentation.
+- Minor code fixes.
+- Minor styling changes.
+
+3.2.0 (September 20th, 2018)
+
+- Recipes Plugin was updated to 2.2.0. Please update the plugin.
+- Added option to display recipe ratings with 5 star ratings. Choose rating style at Appearance > Theme Options > Layout and Colors.
+- Added a recipe list shortcode. Now you can display a list of handpicked recipes or recipes in a collection on post content. See the documentation chapter '5. Shortcodes' for details.
+- Added "Calories in each serving" field in the recipe details.
+- Moved voting buttons on to the hero image to make space for the Calories field.
+- Moved the previous/next recipe navigation to the end of the recipe to improve usability on mobile devices.
+- Moved plugin territory functions from the theme to the plugin.
+- Changed the translation text domain from 'framework' to 'recipes' to follow WordPress Coding Standards.
+- Fixed a bug in JavaScript which on some devices was affecting the navigation tabs and 'Add ingredient list' buttons.
+- Updated documentation.
+- Minor code fixes.
+- Minor styling changes.
+
+3.1.0 (September 15th, 2018)
+
+- Recipes Plugin was updated to 2.1.0. Please update the plugin.
+- Users can now edit and delete their own recipes on the front-end by using the recipe controls above the recipe content.
+- To make editing possible, create a page using the page template 'Edit Recipe'. Now set the URL of the created page in the Theme Options setting 'Edit Recipe URL'.
+- Now it's possible to add multiple ingredient lists and titles for the lists also via the front-end recipe submit form.
+- Front-end submit form is now using the built-in WordPress editor for the recipe description and instructions.
+- Added "Calories in each serving" field in the front-end recipe submit form.
+- There are a couple of new translatable strings. So if you have translated the theme, please check your translation.
+- Updated JavaScript plugins.
+- Minor code fixes.
+
+3.0.5 (September 6th, 2018)
+
+- Recipes Plugin was updated to 2.0.3. Please update the plugin.
+- Options Framework is now included with the theme instead of using the plugin. Please deactivate and delete Options Framework plugin at Plugins > Installed Plugins.
+- Structured data for recipes is now included as JSON. This allows for example including ingredients structured data correctly.
+- Added "Calories in each serving" meta field to recipes. Currently it is only used for the structured data.
+- Share links are now using URL with the post ID instead of the post slug. This improves compatibility for languages with special characters in post titles.
+- Fixed a bug in blog posts when categories were not shown if the author bio was not enabled and the post was not using tags.
+- Minor code fixes.
+
+3.0.4 (September 1st, 2017)
+
+- Fixed bugs in structured data of recipes.
+- Fixed a bug in form validation which caused error on PHP 7.1.
+- Recipes Widget can now be used to display also blog posts with thumbnail images.
+- Author info is now displayed also on external recipes.
+- Minor code fixes.
+
+3.0.3 (July 4th, 2017)
+
+- Demo content import is now handled by One Click Demo Import plugin.
+- Updated import file for the demo content.
+- Updated documentation.
+- Minor code fixes.
+
+3.0.2 (June 21st, 2017)
+
+- Moved homepage related settings from Theme Options to the page editor. Options are displayed when you are editing a page using the template 'Home'. Please check your settings for the homepage.
+- Added option to display the latest blog posts on the homepage template.
+- Added option to hide widgets on the homepage template.
+- Added option to display the search suggestions on the hero image.
+- Added option to customize the text shown before the search suggestions.
+- User's avatar is now displayed on the account dropdown.
+- Compatibility updates for the Favorites plugin as it was updated to 2.1.2, and required some changes to the theme.
+- CSS optimizations.
+- Minor code fixes.
+- Minor styling changes.
+
+3.0.1 (June 2nd, 2017)
+
+- Removed the separate page for displaying user's favorites. Favorites are now displayed in the recipe listing with a toggle.
+- The rating percent is now animated if it changes after a like or dislike.
+- Now it's possible to use light colors for the title background as the text color adjusts automatically.
+- Added back the missing translatable strings which the last version mistakenly removed.
+- Fixed bugs in misc.php appearing on PHP version 5.4
+- Styling fixes for RTL languages.
+- Minor code fixes.
+- Minor styling changes.
+
+3.0.0 (May 17th, 2017)
+
+Warning: The new version may not be compatible with your site if you have edited the theme's PHP files. Please contact the support if you're having trouble with the update.
+
+Important: After updating the theme you must save the options at Appearance > Theme Options > Save Options.
+
+- Completely rewritten codebase with lots of code improvements: removed repetitive code, better separation of concerns, better following of WordPress Coding Standards, better code commenting etc.
+- Fixed the PHP error in ingredient lists if there are no ingredients on the recipe.
+- Recipes without a featured image have now a placeholder image. Default placeholder image can be changed in the Theme Options.
+- Added option to allow recipe submissions without an image.
+- Print button can now be disabled in the Theme Options.
+- Title background color can now be set separately in the Theme Options.
+- Added 6 new fonts.
+- Fonts for headers and body text can now be chosen separately.
+- Recipes in the widget can now be sorted by favorite count.
+- Recipe rating is now updated without a page reload after voting for the recipe.
+- User can now change the vote from like to dislike, and vice versa.
+- Ingredient lists are now displayed as tables for better readability.
+- Now displaying 6 recipes per line on desktop view.
+- Icons are now from Google Material Icons.
+- Updated JavaScript plugins.
+- Minor styling changes.
+
+2.3.0 (April 22nd, 2016)
+
+- Theme functionality has been moved to a plugin as required by ThemeForest. Activate Recipes Plugin.
+- Logging in, registering, and resetting a password are now handled by the default WordPress login page
+- Icons are now served as SVGs for better performance (install 'Better Font Awesome' plugin if you were using FontAwesome icons for your customizations)
+- Added option to allow front-end recipe submissions only from another sites
+- Added Pinterest in the user settings
+- Updated JavaScript plugins
+- Minor styling changes
+
+2.2.0 (March 2nd, 2016)
+
+- Added profile image upload in the front-end user settings page
+- Added option to sort recipes by favorite count
+- Added styling for the favorite count on the recipe cards (enable at Settings > Favorites > Display)
+- Added CSS class (rcps-item-external) to external recipe cards for possible styling customizations
+- Fixed a bug in author.php displaying text that a member with recipes has no recipes published
+- If unregistered user tries to add a recipe to favorites, the login/register popup is displayed instead of tooltip
+- Password forget form now only accepts user email as identification
+- Rewrote parts of the front-end submit form functions
+- Rewrote ingredient list shortcode functions, and increased available ingredient lists to 5
+- Rewrote the function counting ingredients
+- Minor code fixes
+
+2.1.3 (January 21st, 2016)
+
+- Added support for RTL languages
+- Updated JavaScript plugins
+- Moved Magnific Popup styling from style.css to a separate file for better compatibility
+- Style.css is now uncompressed for better readability
+
+2.1.2 (December 19th, 2015)
+
+- Fixed front-end recipe submission to be compatible with WordPress 4.4
+- Dashboard's recipe listing can now be sorted by rating and views
+- Recipe filters (template-filter.php) are now built from an array
+
+2.1.1 (December 3rd, 2015)
+
+- Added columns for rating and thumbnail in the dashboard's recipe listing
+- Added option to choose if the external recipes are linked directly to the recipe source
+- Added documentation about converting regular posts to recipes
+- Fixed the search icon moving out of the place on certain screen sizes
+- Fixed the recipe card layout for older iOS versions
+- Fixed the image upload form field alignment on iOS
+- Updated Font Awesome icon library to 4.5.0
+- Updated JavaScript plugins
+
+2.1.0 (October 21st, 2015)
+
+- Theme Options framework, and Custom Meta Boxes framework are now bundled as plugins
+- Lazy loaded images are now compatible with HiDPi/Retina displays (Use Force Regenerate Thumbnails plugin to rebuild your images!)
+- Resources loaded from CDN are now bundled with the theme as now recommended by WordPress
+- Updated the custom widget to be compatible with WordPress 4.3 requirements
+- Functions are now pluggable for better compatibility with the child theme
+- Fixed microformats compatibility with Pinterest's Recipe Pins
+- Site icon (favicon) should now be uploaded from Customizer
+- Switched to built-in pagination function
+- Updated import file for the demo content
+- Updated documentation
+- Minor code fixes
+
+2.0.0 (August 13th, 2015)
+
+*** This is a big update, so please make backups first! ***
+
+- Added recipe filtering
+- Added favorite feature
+- Added option to sort recipes by views
+- Added TGM Plugin Activation library to require and recommend plugins
+- All CSS classes are now prefixed with "rcps-" (may affect your customizations)
+- More comprehensive use of recipe microformats, including support for Pinterest's Recipe Pins
+- Register button not displayed if "Anyone can register" setting is disabled
+- Added option to allow recipe submission for unregistered users
+- Added option to disable the taxonomy viewed on recipe listing
+- Prep/cook time displayed in hours and minutes
+- Updated FontAwesome icon library
+- Updated JavaScript plugins
+- Speed optimizations
+- Realigned design
+- Updated documentation
+- Minor code fixes
+
+1.2.2 (July 1st, 2015)
+
+- Added option to choose displayed/required fields on the front-end recipe submission form
+- Fixed external recipe description to save correctly
+
+1.2.1 (June 8th, 2015)
+
+- Fixed a bug in scripts.js
+- Fixed a bug in the search suggestions setting
+
+1.2.0 (May 29th, 2015)
+
+- Front-end recipe submission now accepts recipes from another sites
+- Added built-in social sharing buttons
+- Added navigation for the next/previous recipe
+- Added possibility to have multiple ingredient lists
+- Added option to display search suggestions below the homepage's search
+- Improved appearance of external recipes
+- Several PHP, JavaScript, and CSS optimizations
+- Speed optimizations
+- Adjusted colors
+- New logo for the demo
+- Minor code fixes
+
+1.1.6 (March 4th, 2015)
+
+- Added shortcode for inserting the ingredients list anywhere on the post content
+- Added featured image for the default page template
+- Added custom style in the post editor for ingress
+- Fixed a conflict with some plugins on user authentication
+- Performance tweaks: combined files, optimized images, CDN usage
+- Updated documentation
+- Minor code fixes
+
+1.1.5 (February 25th, 2015)
+
+- Added possibility to link recipes to external websites
+- Added lazy loading for thumbnail images
+- Fixed sorting values translation
+- Minor code fixes
+
+1.1.4 (February 18th, 2015)
+
+- Added a front-end popup for logging in, registering, and resetting password
+- Added a section in Permalink Settings page to customize the URL structure of the theme (for better translation etc.)
+- Fixed the mobile styling of the register link
+- Updated the Translating Theme chapter in the documentation
+- Minor code fixes
+
+1.1.3 (February 4th, 2015)
+
+- Fixed a bug in voting.php appearing on PHP versions prior to 5.3
+- Added a restriction for dashboard access for non-admins
+
+1.1.2 (January 27th, 2015)
+
+- Added email notification for the admin when user submits a recipe
+- Added option to hide administrators from the member directory
+- Added option to set a file size limit for images uploaded via the submit recipe form
+- Added missing translatable strings
+- Changed styling of the register link
+- Increased the number of ingredient fields in the submit recipe form
+- Minor code fixes
+
+1.1.1 (December 18th, 2014)
+
+- Added front-end user account settings
+- Added member directory
+- Added social profile link for Instagram, and website
+- Added success message for front-end recipe submission
+- Profile page now displays user's avatar, bio, and social links
+- Redesigned account links in the main navigation
+- Consistent form styling
+- Minor styling changes
+- Minor code fixes
+
+1.1.0 (December 4th, 2014)
+
+- Added front-end recipe submission
+- Added options to embed advertisement
+- Added option to disable recipe ratings
+- Added more background image options
+- Added light background option
+- Added option to choose line styles
+- Fixed print styling
+- Fixed search styling on Chrome
+- Minor styling changes
+- Minor code fixes
+
+1.0.2 (November 19th, 2014)
+
+- Added option to choose which values the recipes can be sorted on
+- Added recommended plugins in the documentation for much better recipe search, contact form, and social sharing
+- Fixed image margins on recipe directions list
+- Fixed styling when using multiple taxonomy terms on recipe
+- Added missing translatable strings
+
+1.0.1 (November 4th, 2014)
+
+- Fixed JavaScript error on the voting system
+- Fixed homepage recipe search
+- Added missing translatable strings
+- Minor code fixes
+
+1.0.0 (October 28th, 2014)
+
+- Initial release
