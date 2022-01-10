@@ -1353,6 +1353,47 @@ a.rcps-item-user {
   background: #eee;
 }
 
+
+/* Make it lists */
+.rcps-table-makeit {
+  width: auto;
+  border-collapse: collapse;
+}
+
+.rcps-table-makeit td {
+  cursor: pointer;
+}
+
+.rcps-table-makeit td:first-child {
+  padding: 0 1rem 0 0;
+}
+
+.rcps-table-makeit tr.rcps-checked td {
+  text-decoration: line-through;
+}
+
+.rcps-makeit-checkable td:first-child::before {
+  content: "\2713";
+  display: inline-block;
+  width: 0.875rem;
+  height: 0.875rem;
+  border: 1px solid #333;
+  border-radius: 2px;
+  margin-right: 0.5rem;
+  text-align: center;
+  line-height: 1;
+  font-size: 0.75rem;
+  color: #fafafa;
+  background: #fafafa;
+}
+
+.rcps-makeit-checkable.rcps-checked td:first-child::before {
+  color: #333;
+  background: #eee;
+}
+
+
+
 /* directions list */
 .single-recipe .rcps-single-content ol {
   counter-reset: li;
