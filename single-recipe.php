@@ -19,11 +19,11 @@ get_header(); ?>
 			<div class="rcps-inner">
 				<div class="rcps-single-content">
 					<h1 class="rcps-post-title"><?php the_title(); ?></h1>
-					<div>
+					<div style="text-align: center;">
 						<span>
 							Recipe Source:
 						</span>
-						<?php $sourceurl = get_post_meta(get_the_ID(), 'source_url', true);
+						<?php $sourceurl = "  " .get_post_meta(get_the_ID(), 'source_url', true);
 
 						if (str_contains($sourceurl, "https://")) { ?>
 							<a href="<?php echo $sourceurl ?>"><?php echo $sourceurl ?></a>
