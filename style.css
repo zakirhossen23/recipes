@@ -1345,12 +1345,11 @@ a.rcps-item-user {
   line-height: 1;
   font-size: 0.75rem;
   color: #fafafa;
-  background: #fafafa;
 }
 
 .rcps-ingredient-checkable.rcps-checked td:first-child::before {
-  color: #333;
-  background: #eee;
+  color: #f00;
+  background: #fff;
 }
 
 

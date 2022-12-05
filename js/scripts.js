@@ -57,14 +57,23 @@ document.addEventListener('DOMContentLoaded', function () {
 	var DropdownMenu = new MyThemeDropdownMenu('.rcps-nav-main-ul');
 
 	/**
-	 * Makes ingredient list items clickable.
+	 * ingredient list items clickable.
 	 */
 	var ingredient_tds = document.querySelectorAll('.rcps-table-ingredients td');
 	if (ingredient_tds.length) {
 		for (var x = 0; x < ingredient_tds.length; x++) {
-			if (typeof (ingredient_tds[x].closest('tr')) !== 'undefined') {
+			if (typeof (ingredient_tds[x].closest('tr')) !== 'undefined' && ingredient_tds[x].querySelector('input[type="checkbox"]') === null) {
 				ingredient_tds[x].addEventListener('click', function () {
 					this.closest('tr').classList.toggle('rcps-checked');
+				});
+			} else {
+				ingredient_tds[x].addEventListener('click', function () {
+					if (this.querySelector('input[type="checkbox"]').checked){
+						this.closest('tr').classList.add('rcps-checked');
+					}
+					updateHaveIt();
+					updateCostPerServing();
+					updateOverbuyInvestment();
 				});
 			}
 		}

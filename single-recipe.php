@@ -38,6 +38,7 @@ get_header(); ?>
 					<?php $servings = get_post_meta(get_the_ID(), 'custom_meta_servings', true); ?>
 					<div>
 						<h6 style="font-weight: bold;text-align: center;">Servings: <?php echo absint($servings); ?></h6>
+						<input hidden value="<?php echo absint($servings); ?>" id="total_servings"/>
 						<div id="files">
 
 						</div>

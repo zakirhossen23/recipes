@@ -17,13 +17,13 @@ $nutrition_facts = rcps_get_nutrition_facts( $post, $exclude = array( 'custom_me
 			<p><?php printf( esc_html__( 'Serving Size: %s', 'recipes' ), esc_html( $post->custom_meta_servings ) ); ?></p>
 		<?php endif; ?>
 
-		<?php if ( $post->custom_meta_calories_in_serving ) : ?>
+		<!-- <?php if ( $post->custom_meta_calories_in_serving ) : ?>
 			<?php // Translators: %s is the number of calories per serving. ?>
 			<p><?php printf( esc_html__( 'Calories Per Serving: %s', 'recipes' ), absint( $post->custom_meta_calories_in_serving ) ); ?></p>
-		<?php endif; ?>
+		<?php endif; ?> -->
 	</div>
 
-	<?php if ( ! empty( $nutrition_facts ) ) : ?>
+	<!-- <?php if ( ! empty( $nutrition_facts ) ) : ?>
 		<?php if ( 'on' === mytheme_get_option( 'show_daily_values' ) ) : ?>
 			<div class="rcps-nutrition-facts-row-daily-value-title">
 				<?php esc_html_e( '% Daily Value', 'recipes' ); ?>
@@ -44,5 +44,5 @@ $nutrition_facts = rcps_get_nutrition_facts( $post, $exclude = array( 'custom_me
 				</div>
 			<?php endforeach; ?>
 		</div>
-	<?php endif; ?>
+	<?php endif; ?> -->
 </div>
